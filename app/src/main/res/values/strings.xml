@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">我的快捷计算</string>
+    <string name="action_settings">关于</string>
+    <string name="Sx">总长(Sy)</string>
+    <string name="Sy">总宽(Sy)</string>
+    <string name="Cx">子块长(Cx)</string>
+    <string name="Cy">子块宽(Cy)</string>
+    <string name="Ccount">总子块数量</string>
+    <string name="Sxcount">宽容纳子块数量</string>
+    <string name="Sycount">长容纳子块数量</string>
+    <string name="Sxshengyu">总长剩余(sx)</string>
+    <string name="Syshengyu">总宽剩余(sy)</string>
+    <string name="Cjianju">子块间距(cd)</string>
+    <string name="Cjianjugeshi">格式:横向(cdx)/纵向(cdy)</string>
+    <string name="Sliangbianjianju">两边(宽)间距(dy)</string>
+    <string name="Stouweijianju">头尾(长)间距(dx)</string>
+    <string name="Sdanjia">单价</string>
+    <string name="Szongjia">总计</string>
+    <string name="Sdinchang">固定长度</string>
+    <string name="Sbudinchang">不固定长度</string>
+    <string name="Sjisuan">计算</string>
+</resources>

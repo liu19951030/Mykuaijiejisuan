@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="top.example.mykuaijiejisuan.MainActivity"
+    tools:showIn="@layout/activity_main"
+    >
+
+       <android.support.constraint.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:maxHeight="1080dp"
+           android:minHeight="250dp">
+
+              <TextView
+                  android:id="@+id/sxtextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Sx"
+                  app:layout_constraintBottom_toBottomOf="@+id/sxeditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+              <EditText
+                  android:id="@+id/sxeditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="8dp"
+                  android:layout_marginTop="8dp"
+                  android:ems="10"
+                  android:hint="@string/Sx"
+                  android:inputType="number"
+                  app:layout_constraintStart_toEndOf="@+id/sxtextView"
+                  app:layout_constraintTop_toTopOf="parent" />
+
+              <TextView
+                  android:id="@+id/sytextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Sy"
+                  app:layout_constraintBottom_toBottomOf="@+id/syeditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+              <EditText
+                  android:id="@+id/syeditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:ems="10"
+                  android:hint="@string/Sy"
+                  android:inputType="number"
+                  app:layout_constraintStart_toEndOf="@+id/sytextView"
+                  app:layout_constraintTop_toBottomOf="@+id/sxeditText" />
+
+              <TextView
+                  android:id="@+id/cxtextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Cx"
+                  app:layout_constraintBottom_toBottomOf="@+id/cxeditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+              <EditText
+                  android:id="@+id/cxeditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:ems="10"
+                  android:hint="@string/Cx"
+                  android:inputType="number"
+                  app:layout_constraintStart_toStartOf="@+id/ccounteditText"
+                  app:layout_constraintTop_toBottomOf="@+id/syeditText" />
+
+              <TextView
+                  android:id="@+id/cytextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Cy"
+                  app:layout_constraintBottom_toBottomOf="@+id/cyeditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+              <EditText
+                  android:id="@+id/cyeditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:ems="10"
+                  android:hint="@string/Cy"
+                  android:inputType="number"
+                  app:layout_constraintStart_toEndOf="@+id/cytextView"
+                  app:layout_constraintTop_toBottomOf="@+id/cxeditText" />
+
+              <TextView
+                  android:id="@+id/ccounttextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Ccount"
+                  app:layout_constraintBottom_toBottomOf="@+id/ccounteditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+              <EditText
+                  android:id="@+id/ccounteditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:ems="10"
+                  android:hint="@string/Ccount"
+                  android:inputType="number"
+                  app:layout_constraintStart_toEndOf="@+id/ccounttextView"
+                  app:layout_constraintTop_toBottomOf="@+id/cyeditText" />
+
+
+              <TextView
+                  android:id="@+id/cjianjutextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Cjianju"
+                  app:layout_constraintBottom_toBottomOf="@+id/cjianjueditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+
+              <EditText
+                  android:id="@+id/cjianjueditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:ems="10"
+                  android:hint="@string/Cjianjugeshi"
+                  android:inputType="text"
+                  app:layout_constraintStart_toEndOf="@+id/cjianjutextView"
+                  app:layout_constraintTop_toBottomOf="@+id/sdanjiaeditText" />
+
+              <TextView
+                  android:id="@+id/slianbiantextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Sliangbianjianju"
+                  app:layout_constraintBottom_toBottomOf="@+id/sliangbianeditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+              <EditText
+                  android:id="@+id/sliangbianeditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:ems="10"
+                  android:hint="@string/Sliangbianjianju"
+                  android:inputType="number"
+                  android:textSize="18sp"
+                  app:layout_constraintStart_toEndOf="@+id/slianbiantextView"
+                  app:layout_constraintTop_toBottomOf="@+id/cjianjueditText" />
+
+              <TextView
+                  android:id="@+id/stouweitextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Stouweijianju"
+                  app:layout_constraintBottom_toBottomOf="@+id/stouweieditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+              <EditText
+                  android:id="@+id/stouweieditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:ems="10"
+                  android:hint="@string/Stouweijianju"
+                  android:inputType="number"
+                  app:layout_constraintStart_toEndOf="@+id/stouweitextView"
+                  app:layout_constraintTop_toBottomOf="@+id/sliangbianeditText" />
+
+              <TextView
+                  android:id="@+id/sdanjiatextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Sdanjia"
+                  app:layout_constraintBottom_toBottomOf="@+id/sdanjiaeditText"
+                  app:layout_constraintStart_toStartOf="parent" />
+
+              <EditText
+                  android:id="@+id/sdanjiaeditText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:ems="10"
+                  android:hint="@string/Sdanjia"
+                  android:inputType="number"
+                  app:layout_constraintStart_toEndOf="@+id/sdanjiatextView"
+                  app:layout_constraintTop_toBottomOf="@+id/ccounteditText" />
+
+              <TextView
+                  android:id="@+id/szongjiatextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Szongjia"
+                  app:layout_constraintBottom_toBottomOf="@+id/sjisuanbutton"
+                  app:layout_constraintStart_toEndOf="@+id/sjisuanbutton" />
+
+              <TextView
+                  android:id="@+id/szongjiaeditView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Szongjia"
+                  app:layout_constraintBottom_toBottomOf="@+id/szongjiatextView"
+                  app:layout_constraintStart_toEndOf="@+id/szongjiatextView" />
+
+              <TextView
+                  android:id="@+id/sxcounttextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:text="@string/Sxcount"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/sycounttextView" />
+
+              <TextView
+                  android:id="@+id/sxcounteditView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Sxcount"
+                  app:layout_constraintBottom_toBottomOf="@+id/sxcounttextView"
+                  app:layout_constraintStart_toEndOf="@+id/sxcounttextView" />
+
+              <TextView
+                  android:id="@+id/sycounttextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:text="@string/Sycount"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/sjisuanbutton" />
+
+              <TextView
+                  android:id="@+id/sycounteditView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="16dp"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Sycount"
+                  app:layout_constraintBottom_toBottomOf="@+id/sycounttextView"
+                  app:layout_constraintStart_toEndOf="@+id/sycounttextView" />
+
+              <TextView
+                  android:id="@+id/sxshengyutextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:text="@string/Sxshengyu"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/sxcounttextView" />
+
+              <TextView
+                  android:id="@+id/sxshengyueditView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Sxshengyu"
+                  app:layout_constraintBottom_toBottomOf="@+id/sxshengyutextView"
+                  app:layout_constraintStart_toEndOf="@+id/sxshengyutextView" />
+
+              <TextView
+                  android:id="@+id/syshengyutextView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginTop="8dp"
+                  android:text="@string/Syshengyu"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/sxshengyutextView" />
+
+              <TextView
+                  android:id="@+id/syshengyueditView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Syshengyu"
+                  app:layout_constraintBottom_toBottomOf="@+id/syshengyutextView"
+                  app:layout_constraintStart_toEndOf="@+id/syshengyutextView" />
+
+              <RadioButton
+                  android:id="@+id/sdinchangradioButton"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="8dp"
+                  android:text="@string/Sdinchang"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/syshengyutextView" />
+
+              <RadioButton
+                  android:id="@+id/sbudinchangradioButton"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:checked="true"
+                  android:text="@string/Sbudinchang"
+                  app:layout_constraintBottom_toBottomOf="@+id/sdinchangradioButton"
+                  app:layout_constraintStart_toEndOf="@+id/sdinchangradioButton" />
+
+              <Button
+                  android:id="@+id/sjisuanbutton"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/Sjisuan"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/stouweieditText" />
+
+              <ImageView
+                  android:id="@+id/image"
+                  android:layout_width="wrap_content"
+                  android:layout_height="880dp"
+                  android:scaleType="fitStart"
+                  android:src="@mipmap/fgucxcy"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/sbudinchangradioButton" />
+
+       </android.support.constraint.ConstraintLayout>
+</ScrollView>
