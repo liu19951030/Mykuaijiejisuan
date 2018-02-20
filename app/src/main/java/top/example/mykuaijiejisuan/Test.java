@@ -5,4 +5,8 @@ package top.example.mykuaijiejisuan;
  */
 
 public class Test {
+
+    private int str;
+
+
 }
